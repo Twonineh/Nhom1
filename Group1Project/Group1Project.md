@@ -23,7 +23,7 @@ Lệ Thu Nguyễn
 ### Thông báo và tương tác nội bộ:
 - Cung cấp chức năng tạo và quản lý thông báo giúp truyền đạt thông tin quan trọng tới nhân viên và quản lý một cách hiệu quả.
 
-###Khả năng mở rộng và tích hợp:
+### Khả năng mở rộng và tích hợp:
 - Đảm bảo hệ thống có khả năng tích hợp với các nền tảng thanh toán điện tử, hệ thống in hóa đơn, và hỗ trợ các tính năng mở rộng trong tương lai như đặt món qua app di động.
 # Phương thức hoạt động
 ### Người Dùng (NguoiDung):
@@ -51,3 +51,5 @@ Lệ Thu Nguyễn
 - Người dùng liên quan đến các hóa đơn (HoaDon), thông qua các thao tác tạo và quản lý hóa đơn.
 - Mỗi hóa đơn chứa các chi tiết cụ thể (HoaDonChiTiet) về sản phẩm được gọi và các ghi chú.
 - Các thông báo (ThongBao) được liên kết với người dùng để đảm bảo thông tin được truyền đạt kịp thời.
+# Sơ đồ Diagram của dự án
+
