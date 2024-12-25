@@ -9,7 +9,7 @@ Lệ Thu Nguyễn
 ```
 # Mục tiêu dự án Android quản lý quán cafe:
 ### Tối ưu hóa quản lý hoạt động quán cafe:
--Tự động hóa quy trình từ quản lý bàn, hóa đơn đến kiểm soát hàng hóa và tồn kho, giúp tiết kiệm thời gian và giảm sai sót trong quản lý.
+- Tự động hóa quy trình từ quản lý bàn, hóa đơn đến kiểm soát hàng hóa và tồn kho, giúp tiết kiệm thời gian và giảm sai sót trong quản lý.
 
 ### Cải thiện trải nghiệm khách hàng:
 - Hỗ trợ nhân viên xử lý yêu cầu đặt bàn, gọi món nhanh chóng, giảm thời gian chờ đợi, từ đó nâng cao sự hài lòng của khách hàng.
