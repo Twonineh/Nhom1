@@ -52,4 +52,4 @@ Lệ Thu Nguyễn
 - Mỗi hóa đơn chứa các chi tiết cụ thể (HoaDonChiTiet) về sản phẩm được gọi và các ghi chú.
 - Các thông báo (ThongBao) được liên kết với người dùng để đảm bảo thông tin được truyền đạt kịp thời.
 # Sơ đồ Diagram của dự án
-
+![image](https://github.com/user-attachments/assets/91254806-f402-411f-b8d4-fa5a6fe704e4)
