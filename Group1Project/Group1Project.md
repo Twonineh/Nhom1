@@ -34,9 +34,9 @@ Lệ Thu Nguyễn
 - Danh sách bàn trong quán cafe được quản lý thông qua đối tượng Ban, với trạng thái bàn (trangThai) được cập nhật bằng phương thức 'updateStatus()'.
 - Khi có yêu cầu đặt món hoặc gọi bàn, phương thức 'assignOrder()' được sử dụng để chỉ định đơn hàng cho bàn tương ứng.
 
-###Hàng hóa và loại hàng (HangHoa, LoaiHang):
--Các sản phẩm được tổ chức theo danh mục (LoaiHang), và các danh mục này có thể được thêm hoặc chỉnh sửa thông qua phương thức 'addProduct()' và 'updateCategory()'.
--Thông tin về sản phẩm, bao gồm giá và trạng thái (còn hàng hoặc hết hàng), được cập nhật thông qua các phương thức như 'updatePrice()' và 'changeStatus()'.
+### Hàng hóa và loại hàng (HangHoa, LoaiHang):
+- Các sản phẩm được tổ chức theo danh mục (LoaiHang), và các danh mục này có thể được thêm hoặc chỉnh sửa thông qua phương thức 'addProduct()' và 'updateCategory()'.
+- Thông tin về sản phẩm, bao gồm giá và trạng thái (còn hàng hoặc hết hàng), được cập nhật thông qua các phương thức như 'updatePrice()' và 'changeStatus()'.
 
 ### Hóa đơn và chi tiết hóa đơn (HoaDon, HoaDonChiTiet):
 - Khi khách hàng vào quán, hóa đơn mới được tạo thông qua phương thức 'createInvoice()', lưu lại thời điểm vào bàn (gioVao) và trạng thái hóa đơn (trangThai).
