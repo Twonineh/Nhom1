@@ -26,31 +26,62 @@ Lệ Thu Nguyễn
 ### Khả năng mở rộng và tích hợp:
 - Đảm bảo hệ thống có khả năng tích hợp với các nền tảng thanh toán điện tử, hệ thống in hóa đơn, và hỗ trợ các tính năng mở rộng trong tương lai như đặt món qua app di động.
 # Phương thức hoạt động
-### Người Dùng (NguoiDung):
-- Người dùng đăng nhập vào hệ thống thông qua phương thức 'login()' để truy cập các chức năng phù hợp với vai trò của họ (nhân viên hoặc quản lý).
-- Người dùng có thể cập nhật thông tin cá nhân bằng phương thức 'updateProfile()'.
+### Người Dùng (User):
+Người dùng đăng ký tài khoản thông qua phương thức 'register()' để lưu thông tin cá nhân lên hệ thống.
+Người dùng đăng nhập bằng phương thức 'login()' để truy cập các chức năng của ứng dụng.
+Người dùng có thể cập nhật thông tin cá nhân qua phương thức 'updateProfile()'.
+Người dùng đăng xuất khỏi hệ thống bằng phương thức 'logout()'.
 
-### Quản lý bàn (Ban):
-- Danh sách bàn trong quán cafe được quản lý thông qua đối tượng Ban, với trạng thái bàn (trangThai) được cập nhật bằng phương thức 'updateStatus()'.
-- Khi có yêu cầu đặt món hoặc gọi bàn, phương thức 'assignOrder()' được sử dụng để chỉ định đơn hàng cho bàn tương ứng.
+### Đồ Uống (Drink):
+Thông tin về đồ uống được lấy từ Firestore bằng phương thức 'fetchDrinks()'.
+Người dùng có thể lọc đồ uống theo danh mục qua phương thức 'filterDrinks()'.
+Giá theo kích cỡ của đồ uống được truy vấn qua phương thức 'getPriceForSize()'.
 
-### Hàng hóa và loại hàng (HangHoa, LoaiHang):
-- Các sản phẩm được tổ chức theo danh mục (LoaiHang), và các danh mục này có thể được thêm hoặc chỉnh sửa thông qua phương thức 'addProduct()' và 'updateCategory()'.
-- Thông tin về sản phẩm, bao gồm giá và trạng thái (còn hàng hoặc hết hàng), được cập nhật thông qua các phương thức như 'updatePrice()' và 'changeStatus()'.
+### Chi Tiết Đồ Uống (DrinkDetailScreen):
+Khi người dùng chọn đồ uống, chi tiết đồ uống sẽ được hiển thị qua phương thức 'showDetails()'.
+Người dùng có thể chọn kích cỡ, số lượng và thêm đồ uống vào giỏ hàng bằng phương thức 'addToCart()'.
 
-### Hóa đơn và chi tiết hóa đơn (HoaDon, HoaDonChiTiet):
-- Khi khách hàng vào quán, hóa đơn mới được tạo thông qua phương thức 'createInvoice()', lưu lại thời điểm vào bàn (gioVao) và trạng thái hóa đơn (trangThai).
-- Các mặt hàng được thêm hoặc xóa khỏi hóa đơn bằng phương thức 'addItem()' hoặc 'removeItem()' của đối tượng HoaDonChiTiet.
-- Khi khách rời đi, hóa đơn được đóng và trạng thái cập nhật qua phương thức 'closeInvoice()'.
+### Màn Hình Chính (HomeScreen):
+Xây dựng các trang chính (Menu, Giỏ hàng, Thông báo) bằng phương thức 'buildPages()'.
+Xử lý sự kiện khi người dùng chọn menu dưới cùng qua phương thức 'onItemTapped()'.
+Thêm đồ uống vào giỏ hàng bằng phương thức 'addToCart()'.
+Cập nhật giỏ hàng khi có thay đổi bằng phương thức 'updateCart()'.
+Xóa toàn bộ giỏ hàng thông qua phương thức 'clearCart()'.
 
-### Thông báo (ThongBao):
-- Thông báo được tạo bởi quản trị viên hoặc hệ thống thông qua phương thức 'createNotification()' để thông báo cho người dùng về các sự kiện, thông tin quan trọng.
-- Người dùng có thể đánh dấu thông báo đã đọc thông qua phương thức 'markAsRead()'.
+### Giỏ Hàng (CartScreen):
+Người dùng thay đổi số lượng sản phẩm qua phương thức 'onUpdateQty()'.
+Người dùng có thể xóa sản phẩm khỏi giỏ qua phương thức 'onRemoveItem()'.
 
-### Mối quan hệ giữa các đối tượng:
-- Người dùng liên quan đến các hóa đơn (HoaDon), thông qua các thao tác tạo và quản lý hóa đơn.
-- Mỗi hóa đơn chứa các chi tiết cụ thể (HoaDonChiTiet) về sản phẩm được gọi và các ghi chú.
-- Các thông báo (ThongBao) được liên kết với người dùng để đảm bảo thông tin được truyền đạt kịp thời.
+### Thông Báo (NotificationScreen):
+Hiển thị thông báo cho người dùng thông qua phương thức 'build()'.
+
+### Đăng Ký (RegisterScreen):
+Người dùng nhập thông tin và đăng ký tài khoản bằng phương thức 'register()'.
+Thông tin người dùng được lưu vào Firestore.
+
+### Đăng Nhập (LoginScreen):
+Người dùng đăng nhập vào hệ thống thông qua phương thức 'login()'.
+Xác thực thông tin qua Firebase Authentication.
+
+### Xác Thực (AuthScreen):
+Hiển thị giao diện đăng nhập hoặc đăng ký qua phương thức 'showLogin()' và 'showRegister()'.
+
+### Người Dùng Firebase (FirebaseAuth):
+Tạo tài khoản mới qua phương thức 'createUserWithEmailAndPassword()'.
+Đăng nhập qua phương thức 'signInWithEmailAndPassword()'.
+Đăng xuất qua phương thức 'signOut()'.
+Theo dõi trạng thái đăng nhập bằng phương thức 'authStateChanges()'.
+Hồ Sơ Người Dùng (UserProfileScreen):
+Lấy dữ liệu người dùng từ Firestore bằng phương thức 'getUserData()'.
+
+### Đơn Hàng (Orders):
+Đơn hàng mới được tạo và lưu vào Firestore qua phương thức 'createOrder()'.
+Cập nhật trạng thái đơn hàng bằng phương thức 'updateOrderStatus()'.
+
+### Cơ sở dữ liệu Firestore (Users, Orders):
+Người dùng được lưu với các trường: uid, email, tên, số điện thoại, địa chỉ.
+Đơn hàng lưu thông tin về người đặt, các mặt hàng, tổng tiền, ngày đặt, trạng thái đơn hàng.
+
 # Sơ đồ Diagram của dự án
 ### Sơ đồ chọn món
 ![Image](https://github.com/user-attachments/assets/54c0dacb-0e3b-4552-a2c2-33bbbf12be3c)
