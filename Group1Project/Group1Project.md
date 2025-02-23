@@ -83,7 +83,5 @@ Người dùng được lưu với các trường: uid, email, tên, số điệ
 Đơn hàng lưu thông tin về người đặt, các mặt hàng, tổng tiền, ngày đặt, trạng thái đơn hàng.
 
 # Sơ đồ Diagram của dự án
-### Sơ đồ chọn món
-![Image](https://github.com/user-attachments/assets/54c0dacb-0e3b-4552-a2c2-33bbbf12be3c)
-### Sơ đồ đăng nhập, đăng kí
-![Image](https://github.com/user-attachments/assets/cebde70f-890d-4756-ac1d-b7349c5b7438)
+### Sơ đồ đăng nhập và chọn món
+![Image](https://github.com/user-attachments/assets/53eadf77-9d1b-40ef-9bd6-c93003b11370)
