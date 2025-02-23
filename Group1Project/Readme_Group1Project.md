@@ -84,4 +84,4 @@ Người dùng được lưu với các trường: uid, email, tên, số điệ
 
 # Sơ đồ Diagram của dự án
 ### Sơ đồ đăng nhập và chọn món
-![Image](https://github.com/user-attachments/assets/53eadf77-9d1b-40ef-9bd6-c93003b11370)
+![Image](https://github.com/user-attachments/assets/d56712c8-a227-4412-8165-e8ab00af8c52)
