@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "632863077312",
+    "project_id": "quancaphe-ed527",
+    "storage_bucket": "quancaphe-ed527.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632863077312:android:5ae01e5c1e229309870e25",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPgQJCaOMxdax7ji5QPIBUNQKuSsvnuOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
