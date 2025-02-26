@@ -85,3 +85,27 @@ Người dùng được lưu với các trường: uid, email, tên, số điệ
 # Sơ đồ Diagram của dự án
 ### Sơ đồ đăng nhập và chọn món
 ![Image](https://github.com/user-attachments/assets/a9774f2b-6ada-434c-a5bd-5a1078ede25f)
+
+# Cấu trúc code dự án 
+lib/
+│── models/
+│   ├── cart_item.dart
+│   ├── drink.dart
+│   ├── order.dart
+│
+│── screens/
+│   ├── auth_screen.dart
+│   ├── cart_screen.dart
+│   ├── drink_detail_screen.dart
+│   ├── home_screen.dart
+│   ├── login_screen.dart
+│   ├── menu_screen.dart
+│   ├── order_detail_screen.dart
+│   ├── order_history_screen.dart
+│   ├── register_screen.dart
+│   ├── user_profile_screen.dart
+│
+│── widgets/
+│   ├── drink_item.dart
+│
+│── main.dart
