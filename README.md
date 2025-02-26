@@ -86,5 +86,13 @@ Người dùng được lưu với các trường: uid, email, tên, số điệ
 ### Sơ đồ đăng nhập và chọn món
 ![Image](https://github.com/user-attachments/assets/a9774f2b-6ada-434c-a5bd-5a1078ede25f)
 
-# Cấu trúc code dự án 
-![Image](https://private-user-images.githubusercontent.com/88934332/417028877-bdb4efea-fc68-4cf2-8933-8f3a5492fb1e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1NTQ5NTEsIm5iZiI6MTc0MDU1NDY1MSwicGF0aCI6Ii84ODkzNDMzMi80MTcwMjg4NzctYmRiNGVmZWEtZmM2OC00Y2YyLTg5MzMtOGYzYTU0OTJmYjFlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI2VDA3MjQxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ0ODkyNWRhYzYyZDU1ZjFkYzQ0MDdjZjcxYmU2YWJiM2VmY2FmYWQwYjk5YzU2NmIxNTc2MDA2NGE5MDE1NjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.CvjIIfB423yBQ4WCK3aw1LFwVYCa13TdEqkN29dL9xA)
+# Cấu trúc file code
+
+# Giao diện app
+![Image](https://github.com/user-attachments/assets/2ed424a4-aa56-498a-8706-41d76c2d7d83)
+
+![Image](https://github.com/user-attachments/assets/cebd7f91-9817-49d8-9694-adc0ba1e00f2)
+
+![Image](https://github.com/user-attachments/assets/516854af-c7f8-42fc-9733-5dec8dec0156)
+
+![Image](https://github.com/user-attachments/assets/de237f91-511a-48b5-80a9-a83c76c46eb4)
