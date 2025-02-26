@@ -87,30 +87,4 @@ Người dùng được lưu với các trường: uid, email, tên, số điệ
 ![Image](https://github.com/user-attachments/assets/a9774f2b-6ada-434c-a5bd-5a1078ede25f)
 
 # Cấu trúc code dự án 
-lib
-│───main.dart    
-└───src
-    │───config
-    |    └──route.dart
-    │───model
-    │    │──category.dart
-    |    │──data.dart
-    |    └──product.dart
-    │───pages
-    |    │──homePage.dart
-    |    │──mainPage.dart
-    |    │──product_detail.dart
-    |    └──shoping_cart_page.dart
-    │───theme
-    |    │──light_color.dart
-    |    └──theme.dart
-    └───widgets
-         │──BottomNavigationBar
-         |   |──bootom_navigation_bar.dart
-         |   |──bottom_curved_Painter.dart
-         |   └──centered_elasticIn_curve.dart
-         |──bottom_navigation_bar.dart
-         |  customRoute.dart
-         |  prduct_icon.dart
-         │──product_card.dart
-         └──title_text.dart
+![Image](https://github.com/Twonineh/Nhom1/issues/4#issue-2880513077)
