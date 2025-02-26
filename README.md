@@ -88,6 +88,8 @@ Người dùng được lưu với các trường: uid, email, tên, số điệ
 
 # Cấu trúc file code
 
+![Image](https://github.com/user-attachments/assets/bdb4efea-fc68-4cf2-8933-8f3a5492fb1e)
+
 # Giao diện app
 ![Image](https://github.com/user-attachments/assets/2ed424a4-aa56-498a-8706-41d76c2d7d83)
 
